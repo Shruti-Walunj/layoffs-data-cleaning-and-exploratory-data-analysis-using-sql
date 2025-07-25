@@ -1,4 +1,4 @@
-# 📊 Layoffs Data Cleaning & Exploratory Data Analysis | SQL
+# 📊 Layoffs Data Cleaning & Exploratory Data Analysis using SQL
 
 # 📄 Description:
 Cleaned and analyzed a real-world dataset of 2361 companies hit by layoffs (2020–2023). Built an SQL pipeline to uncover industry, country, and year-wise trends in global layoffs.
