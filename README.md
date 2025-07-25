@@ -1,91 +1,34 @@
 # 📊 Layoffs Data Cleaning & EDA | SQL
 
-# 📝 Description
-This project involved cleaning a raw dataset of global company layoffs using SQL and performing exploratory data analysis (EDA) to uncover key patterns and trends. The complete ETL process was executed using SQL queries within a structured database environment.
+# 📄 Description:
+Cleaned and analyzed a real-world dataset of 2361 companies hit by layoffs (2020–2023). Built an SQL pipeline to uncover industry, country, and year-wise trends in global layoffs.
 
-# 🔧 Tools & Skills
-MySQL
+# 🧩 Key Tasks:
 
-Common Table Expressions (CTEs)
+Removed duplicates using CTEs and window functions
 
-Window Functions
+Standardized messy data (dates, industries, country names)
 
-Data Transformation & Aggregation
+Filled missing values with self-joins
 
-Exploratory Data Analysis
+Dropped irrelevant rows & columns
 
-# 📁 Dataset
-File: layoffs_raw_data.xlsx
+Performed industry, country, and time-based EDA
 
-Rows: 2,362 (including header)
+Built a rolling monthly trend of layoffs across 3 years
 
-Columns:
+# 📊 Insights:
 
-company
+Amazon had the highest layoffs: 18,150
 
-location
+2023 saw the most layoffs: 125,677
 
-industry
+Consumer industry & Post-IPO stage were hit hardest
 
-total_laid_off
+Total layoffs recorded: 383,159
 
-percentage_laid_off
-
-date
-
-stage
-
-country
-
-funds_raised_millions
-
-# 🧹 Data Cleaning (ETL Process)
-
-Duplicate Removal
-
-Standardizing Values
-
-Handling Null & Blank Values
-
-Removing Unnecessary Data
-
-# 📊 Exploratory Data Analysis (EDA)
-
-Maximum Layoffs
-
-Companies that Laid Off All Employees
-
-Highest Funded Companies
-
-Top Layoff Companies
-
-Date Range
-
-Grouped Aggregations
-
-Rolling Monthly Layoffs (All Years)
-
-Yearly Company Layoffs
-
-Top 5 Companies by Layoffs Each Year
-
-# ✅ Key Insights
-Layoffs were highly concentrated among a few large companies.
-
-The crypto and tech sectors saw significant job cuts.
-
-Several well-funded startups still experienced massive layoffs.
-
-The United States recorded the highest number of layoffs.
-
-Peak layoff months aligned with major global economic slowdowns.
-
-# 📥 How to Use
-Set up the database and import the raw Excel file.
-
-Run the provided SQL queries step by step.
-
-Explore trends and insights via grouped and rolling aggregations.
+# 🛠️ Skills:
+SQL | Data Cleaning | Exploratory Data Analysis | Window Functions | CTEs 
 
 # 👤 Author
 Shruti Walunj
